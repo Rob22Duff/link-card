@@ -13,7 +13,6 @@ html {
 h2 {
   font-family: Dosis, sans-serif;
   margin-top: 0;
-  padding-top: .3em;
 }
 
 .link-card {
@@ -23,7 +22,7 @@ h2 {
   text-decoration: none;
   border: 3px solid #9a816d;
   border-radius: 8px;
-    padding: 1rem;
+  padding: 1rem;
 }
 
 dd, dt {
@@ -36,9 +35,8 @@ dl {
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
   font-size: .875rem;
-  padding-top: 1.5em;
+  padding-top: 1em;
   padding-bottom: 1.5em;
-
 }
 
 div {
@@ -49,12 +47,16 @@ div {
   background-color: #785439;
   border-radius: 10px;
   color: #fff;
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
   font-size: 1.125rem;
   padding: .4em .75em .5em;
   display: inline-block;
-  }
+}
 
 .link-card:hover {
   background-color: #cabdb2;
+}
+
+.link-card h2 {
+  font-weight: bold;
 }
